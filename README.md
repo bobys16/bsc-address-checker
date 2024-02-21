@@ -31,5 +31,5 @@ git clone https://github.com/your_username/your_repository.git
 Run the script:
 php run.php
 
-##Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
