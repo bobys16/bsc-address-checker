@@ -26,7 +26,9 @@ git clone https://github.com/your_username/your_repository.git
    ```php
    <?php
 
-  $api_key = "YOUR_BSCSCAN_API_KEY";
+   return [
+       $api_key = "YOUR_BSCSCAN_API_KEY";
+   ];
   
 Run the script:
 php run.php
