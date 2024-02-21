@@ -9,25 +9,14 @@ This PHP script generates Binance Smart Chain (BSC) cryptocurrency addresses and
 
 ## Requirements
 
-- PHP (version X.X or higher)
+- PHP (version 8.0 or higher)
 - [Ethereum PHP library](https://github.com/kornrunner/php-ethereum)
 - Access to the [BscScan API](https://bscscan.com/apis)
 
 ## Usage
 
 1. Clone the repository:
-
 git clone https://github.com/your_username/your_repository.git
-
-markdown
-Copy code
-
-2. Install dependencies:
-
-composer install
-
-php
-Copy code
 
 3. Configure BscScan API key:
 
@@ -37,15 +26,10 @@ Copy code
    ```php
    <?php
 
-   return [
-       'bscscan_api_key' => 'YOUR_BSCSCAN_API_KEY'
-   ];
+  $api_key = "YOUR_BSCSCAN_API_KEY";
+  
 Run the script:
-arduino
-Copy code
 php run.php
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-License
-This project is licensed under the MIT License.
+##Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
