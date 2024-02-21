@@ -28,7 +28,7 @@ git clone https://github.com/bobys16/bsc-address-checker.git
    <?php
 
   $api_key = "YOUR_BSCSCAN_API_KEY";
-  ```
+
 3. Run the script:
 
 ```php
